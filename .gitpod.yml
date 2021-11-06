@@ -1,9 +1,13 @@
-tasks:
+image:
+  file: .gitpod.Dockerfile
+tasks: 
   - name: standard
-    init: |
-      nvm install v12
-      nvm use v12 
-      npm install
+    init: npm install
+    # default v12 already, thus not needed zz-_44-_y21-1106-1715
+    # init: |
+    #   nvm install v12
+    #   nvm use v12 
+    #   npm install
     command: npm run start
   - name: my test
     command: date
