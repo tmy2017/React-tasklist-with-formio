@@ -1,11 +1,12 @@
 tasks:
   - name: standard
-    init: npm install
+    init: |
+      nvm install v12
+      nvm use v12 
+      npm install
     command: npm run start
   - name: my test
     command: date
-# https://hub.docker.com/_/node?tab=tags&page=1&name=12
-image: node:12-alpine
 vscode:
   extensions:
     - https://github.com/jimmygc/linenote-codelens/releases/download/1.0.1/linenote-codelens-1.0.1.vsix
