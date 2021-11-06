@@ -1,9 +1,12 @@
 tasks:
   - name: standard
-    init: npm install
+    init: |
+      nvm install v12
+      nvm use v12 
+      npm install
     command: npm run start
   - name: my test
-    command: ls
+    command: date
 vscode:
   extensions:
     - https://github.com/jimmygc/linenote-codelens/releases/download/1.0.1/linenote-codelens-1.0.1.vsix
