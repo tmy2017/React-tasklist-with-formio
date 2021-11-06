@@ -8,6 +8,7 @@ import './css/index.css'
 
 const store = configureStore()
 
+// hihi zz-_44-_y21-1106-1454
 render(
   <Router>
     <Root store={store} />
