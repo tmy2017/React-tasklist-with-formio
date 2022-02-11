@@ -30,7 +30,7 @@
     "font-awesome": "^4.7.0",
     "formiojs": "^4.0.0-rc.21",
     "history": "^4.9.0",
-    "node-sass": "^4.11.0",
+    "node-sass": "^7.0.0",
     "react": "16.8.2",
     "react-dom": "16.8.2",
     "react-formio": "^4.0.0-rc.11",
